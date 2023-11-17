@@ -40,17 +40,10 @@
     "sqlite3": "^5.1.6"
   },
   "scripts": {
-    "setup": "node ./src/setupTests.js",
-    "start": "npm run setup | craco start",
-    "build": "npm run setup | craco build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [

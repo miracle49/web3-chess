@@ -288,6 +288,3 @@ const Chess = (props) => {
 };
 
 export default observer(Chess);
-
-const chess = 1;
-export default chess;
